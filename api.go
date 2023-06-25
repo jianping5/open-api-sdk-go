@@ -63,7 +63,7 @@ func (c *OpenApiClient) SayHelloUsingGet() string {
 	client := &http.Client{}
 
 	// 构造请求
-	req, err := http.NewRequest("GET", "http://localhost/api/hello", nil)
+	req, err := http.NewRequest("GET", "http://localhost:3000/api/hello", nil)
 	if err != nil {
 		return ""
 	}
