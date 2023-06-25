@@ -59,7 +59,7 @@ func (c *OpenApiClient) AddHeaders(req *http.Request, userRequestParams string) 
 
 }
 
-func (c *OpenApiClient) SayHelloUsingGet(userRequestParams string) string {
+func (c *OpenApiClient) SayHelloUsingGet() string {
 	client := &http.Client{}
 
 	// 构造请求
@@ -69,7 +69,7 @@ func (c *OpenApiClient) SayHelloUsingGet(userRequestParams string) string {
 	}
 
 	// 添加请求头
-	c.AddHeaders(req, userRequestParams)
+	c.AddHeaders(req, "")
 
 	// 发送请求
 	resp, err := client.Do(req)
