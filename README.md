@@ -60,6 +60,10 @@ func main() {
 }
 ```
 
+### 5. 示例项目
+- [open-api-sdk-demo](https://github.com/jianping5/open-api-sdk-demo)
+
+
 ## API 文档
 ### 1. 你好
 方法名：SayHelloUsingGet
