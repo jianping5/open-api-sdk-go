@@ -119,3 +119,8 @@ func (c *OpenApiClient) GetNameByIdUsingPost(userRequestParams string) string {
 	return string(bytes)
 
 }
+
+
+func add() int {
+	return 1
+}
