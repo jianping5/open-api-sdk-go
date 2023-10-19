@@ -112,7 +112,7 @@ func (c *OpenApiClient) GetNameByIdUsingPost(userRequestParams string) string {
 	// 读取结果
 	bytes, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		return "123"
+		return "567"
 	}
 
 	// 返回结果
